@@ -1,0 +1,223 @@
+---
+import '../styles/global.css'
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="The 50/50 Club - For men who wish to test the boundaries and take on challenges with other men." />
+    <title>The 50/50 Club | Test Your Limits. Discover Your Strength.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body class="font-body bg-[var(--color-parchment)] text-[var(--color-text-primary)]">
+
+    <!-- Navigation -->
+    <nav class="bg-[var(--color-dark)] px-12 py-5 flex items-center justify-between sticky top-0 z-50 shadow-[0_4px_40px_rgba(0,0,0,0.08)]">
+      <a href="#" class="flex items-center gap-2">
+        <svg class="w-6 h-6 text-[var(--color-sage)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19"/></svg>
+        <span class="font-display text-[22px] font-semibold text-white tracking-tight">50/50 CLUB</span>
+      </a>
+      <div class="flex items-center gap-8">
+        <a href="#philosophy" class="text-[13px] font-medium text-white/80 hover:text-white transition-colors">Philosophy</a>
+        <a href="#journey" class="text-[13px] font-medium text-white/80 hover:text-white transition-colors">The Journey</a>
+        <a href="#adventures" class="text-[13px] font-medium text-white/80 hover:text-white transition-colors">Adventures</a>
+        <a href="#contact" class="text-[13px] font-medium text-white/80 hover:text-white transition-colors">Contact</a>
+        <a href="#contact" class="bg-[var(--color-sage)] hover:bg-[var(--color-sage-dark)] text-white text-[13px] font-semibold px-[18px] py-[10px] rounded-lg transition-colors">Join the Club</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[700px] flex flex-col items-center justify-center text-center px-8 overflow-hidden">
+      <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1440&q=80')"></div>
+      <div class="absolute inset-0 bg-black/55"></div>
+      <div class="relative z-10 flex flex-col items-center gap-6 max-w-[900px]">
+        <div class="border border-white/25 bg-white/10 rounded-full px-4 py-1.5 backdrop-blur-sm">
+          <span class="text-[11px] font-semibold text-white/80 tracking-[2px]">EST. 2024 &middot; ADVENTURE AWAITS</span>
+        </div>
+        <h1 class="font-display text-[64px] font-medium text-white leading-[1.1] tracking-tight">
+          Test Your Limits.<br/>Discover Your Strength.
+        </h1>
+        <p class="text-[18px] text-white/80 leading-relaxed max-w-[700px]">
+          A brotherhood of men who embrace adversity, conquer wild landscapes, and forge unbreakable bonds through challenges with a 50/50 chance of success.
+        </p>
+        <div class="flex items-center gap-4 mt-2">
+          <a href="#contact" class="bg-[var(--color-sage)] hover:bg-[var(--color-sage-dark)] text-white text-[16px] font-semibold px-8 py-4 rounded-[10px] transition-colors shadow-[0_2px_20px_rgba(0,0,0,0.08)]">
+            Begin Your Journey
+          </a>
+          <a href="#philosophy" class="bg-white/10 hover:bg-white/20 border border-white/25 text-white text-[16px] font-medium px-8 py-4 rounded-[10px] transition-colors backdrop-blur-sm">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="bg-white py-20 px-[120px]">
+      <div class="flex flex-col items-center gap-12 max-w-[1200px] mx-auto">
+        <div class="flex flex-col items-center gap-6 text-center">
+          <span class="text-[12px] font-semibold text-[var(--color-sage)] tracking-[3px]">OUR PHILOSOPHY</span>
+          <h2 class="font-display text-[40px] font-medium text-[var(--color-text-primary)] tracking-tight">We Learn Through Adversity</h2>
+          <p class="text-[16px] text-[var(--color-text-secondary)] leading-[1.7] max-w-[700px]">
+            It's a truism that we learn through adversity but rarely do we seek it out. Our ambition is to create a comfortable lifestyle centred on pleasure seeking, yet often it fails to satisfy. We know that the best rewards in life come from achieving something great in the company of others.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-6 w-full">
+          <div class="bg-[var(--color-parchment)] rounded-2xl p-8 flex flex-col gap-4">
+            <svg class="w-8 h-8 text-[var(--color-sage)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            <h3 class="font-display text-[22px] font-medium text-[var(--color-text-primary)]">Healing</h3>
+            <p class="text-[14px] text-[var(--color-text-secondary)] leading-relaxed">Experience the transformative effects of nature, fellowship and adversity. Discover strength you never knew you had.</p>
+          </div>
+          <div class="bg-[var(--color-parchment)] rounded-2xl p-8 flex flex-col gap-4">
+            <svg class="w-8 h-8 text-[var(--color-sage)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <h3 class="font-display text-[22px] font-medium text-[var(--color-text-primary)]">Fellowship</h3>
+            <p class="text-[14px] text-[var(--color-text-secondary)] leading-relaxed">The bonds you form with other men will lift your spirits and strengthen you in life. A growing community of like-minded men.</p>
+          </div>
+          <div class="bg-[var(--color-parchment)] rounded-2xl p-8 flex flex-col gap-4">
+            <svg class="w-8 h-8 text-[var(--color-sage)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+            <h3 class="font-display text-[22px] font-medium text-[var(--color-text-primary)]">Flow State</h3>
+            <p class="text-[14px] text-[var(--color-text-secondary)] leading-relaxed">Push beyond physical boundaries into a pleasurable state — the real flow state. Highly attuned to your surroundings, alive in nature.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Phases Section -->
+    <section id="journey" class="bg-[var(--color-dark)] py-20 px-[120px]">
+      <div class="flex flex-col items-center gap-12 max-w-[1200px] mx-auto">
+        <div class="flex flex-col items-center gap-6 text-center">
+          <span class="text-[12px] font-semibold text-[var(--color-sage)] tracking-[3px]">THE JOURNEY</span>
+          <h2 class="font-display text-[40px] font-medium text-white tracking-tight">Three Distinct Phases</h2>
+          <p class="text-[16px] text-white/65 leading-[1.7] max-w-[650px]">
+            Every 50/50 challenge follows a structured path designed to prepare you physically, test you in the wild, and transform your outlook on life.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-6 w-full">
+          <div class="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 flex flex-col gap-5">
+            <span class="font-display text-[48px] font-medium text-[var(--color-sage)] tracking-tight leading-none">01</span>
+            <h3 class="font-display text-[24px] font-medium text-white">Preparation</h3>
+            <p class="text-[14px] text-white/60 leading-relaxed">3-6 months of physical and mental training. Individual and group sessions, nutrition guidance, injury prevention. Monthly video calls and team dinners build cohesion.</p>
+          </div>
+          <div class="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 flex flex-col gap-5">
+            <span class="font-display text-[48px] font-medium text-[var(--color-terracotta)] tracking-tight leading-none">02</span>
+            <h3 class="font-display text-[24px] font-medium text-white">Adventure</h3>
+            <p class="text-[14px] text-white/60 leading-relaxed">Hiking, ski touring, and wilderness expeditions. Teams of 4-8 men tackling challenges from Tasmania to the Swiss Alps. Point A to B within a timeframe — with a 50% chance of success.</p>
+          </div>
+          <div class="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 flex flex-col gap-5">
+            <span class="font-display text-[48px] font-medium text-[var(--color-blue)] tracking-tight leading-none">03</span>
+            <h3 class="font-display text-[24px] font-medium text-white">Transformation</h3>
+            <p class="text-[14px] text-white/60 leading-relaxed">The catalyst for personal growth. Lift your horizons, deepen your purpose, gain confidence. Join a growing community of like-minded men who foster connections and plan new adventures.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Adventures Section -->
+    <section id="adventures" class="bg-[var(--color-parchment)] py-20 px-[120px]">
+      <div class="flex flex-col items-center gap-12 max-w-[1200px] mx-auto">
+        <div class="flex flex-col items-center gap-6 text-center">
+          <span class="text-[12px] font-semibold text-[var(--color-sage)] tracking-[3px]">WHERE WE GO</span>
+          <h2 class="font-display text-[40px] font-medium text-[var(--color-text-primary)] tracking-tight">Wild Landscapes, Unforgettable Journeys</h2>
+          <p class="text-[16px] text-[var(--color-text-secondary)] leading-[1.7] max-w-[650px]">
+            From the wilderness of Tasmania's south coast to backcountry in the Snowy Mountains, and overseas to New Zealand, Nepal, or our exclusive Swiss Alpine Chalet.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-6 w-full h-[320px]">
+          <div class="relative rounded-2xl overflow-hidden group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80')"></div>
+            <div class="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
+            <div class="relative z-10 h-full flex flex-col justify-end p-6">
+              <h3 class="font-display text-[24px] font-medium text-white">Tasmania</h3>
+              <p class="text-[14px] text-white/80">South coast wilderness</p>
+            </div>
+          </div>
+          <div class="relative rounded-2xl overflow-hidden group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600&q=80')"></div>
+            <div class="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
+            <div class="relative z-10 h-full flex flex-col justify-end p-6">
+              <h3 class="font-display text-[24px] font-medium text-white">Snowy Mountains</h3>
+              <p class="text-[14px] text-white/80">Alpine backcountry</p>
+            </div>
+          </div>
+          <div class="relative rounded-2xl overflow-hidden group cursor-pointer">
+            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=600&q=80')"></div>
+            <div class="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
+            <div class="relative z-10 h-full flex flex-col justify-end p-6">
+              <h3 class="font-display text-[24px] font-medium text-white">Swiss Alps</h3>
+              <p class="text-[14px] text-white/80">Exclusive alpine chalet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="bg-white py-20 px-[120px]">
+      <div class="flex flex-col items-center gap-8 max-w-[800px] mx-auto text-center">
+        <span class="font-display text-[80px] font-medium text-[var(--color-sage)]/25 leading-[0.6]">&ldquo;</span>
+        <p class="font-display text-[24px] italic text-[var(--color-text-primary)] leading-[1.5]">
+          The 50/50 Club is more than a physical test. It will change your outlook on life, lift your horizons, deepen your purpose and give you confidence in other aspects of life. The goal is to make you healthy and whole.
+        </p>
+        <div class="w-12 h-0.5 bg-[var(--color-sage)]"></div>
+        <span class="text-[14px] font-medium text-[var(--color-text-secondary)]">The 50/50 Club Philosophy</span>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="contact" class="relative py-[100px] px-[120px] overflow-hidden">
+      <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1551632811-561732d1e306?w=1440&q=80')"></div>
+      <div class="absolute inset-0 bg-[var(--color-dark)]/[0.93]"></div>
+      <div class="relative z-10 flex flex-col items-center gap-8 max-w-[700px] mx-auto text-center">
+        <h2 class="font-display text-[48px] font-medium text-white leading-[1.15] tracking-tight">
+          Ready to Test<br/>Your Boundaries?
+        </h2>
+        <p class="text-[18px] text-white/80 leading-relaxed max-w-[600px]">
+          Design your own challenge with friends or be assigned to a team of 4-8 men. The adventure of a lifetime awaits.
+        </p>
+        <a href="mailto:peterkaldor@gmail.com" class="inline-flex items-center gap-2 bg-[var(--color-sage)] hover:bg-[var(--color-sage-dark)] text-white text-[16px] font-semibold px-9 py-[18px] rounded-[10px] transition-colors shadow-[0_2px_20px_rgba(0,0,0,0.08)]">
+          Join the 50/50 Club
+          <svg class="w-[18px] h-[18px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <p class="text-[14px] text-white/60">
+          Contact Peter Kaldor &middot; 0409 457 259 &middot; peterkaldor@gmail.com
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[var(--color-dark-bg)] py-12 px-[120px]">
+      <div class="max-w-[1200px] mx-auto flex flex-col gap-8">
+        <div class="flex justify-between items-start">
+          <div class="flex flex-col gap-3">
+            <a href="#" class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[var(--color-sage)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19"/></svg>
+              <span class="font-display text-[18px] font-semibold text-white tracking-tight">50/50 CLUB</span>
+            </a>
+            <p class="text-[13px] text-white/40">For men who wish to test the boundaries.</p>
+          </div>
+          <div class="flex gap-12">
+            <div class="flex flex-col gap-3">
+              <span class="text-[12px] font-semibold text-white/60 tracking-[1px]">Navigation</span>
+              <a href="#philosophy" class="text-[13px] text-white/40 hover:text-white/70 transition-colors">Philosophy</a>
+              <a href="#journey" class="text-[13px] text-white/40 hover:text-white/70 transition-colors">The Journey</a>
+              <a href="#adventures" class="text-[13px] text-white/40 hover:text-white/70 transition-colors">Adventures</a>
+              <a href="#contact" class="text-[13px] text-white/40 hover:text-white/70 transition-colors">Contact</a>
+            </div>
+            <div class="flex flex-col gap-3">
+              <span class="text-[12px] font-semibold text-white/60 tracking-[1px]">Contact</span>
+              <span class="text-[13px] text-white/40">Peter Kaldor</span>
+              <span class="text-[13px] text-white/40">0409 457 259</span>
+              <a href="mailto:peterkaldor@gmail.com" class="text-[13px] text-[var(--color-sage)] hover:text-[var(--color-sage-dark)] transition-colors">peterkaldor@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-px bg-white/[0.08]"></div>
+        <p class="text-[12px] text-white/25">&copy; 2024 The 50/50 Club. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

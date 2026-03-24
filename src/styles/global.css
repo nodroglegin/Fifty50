@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --color-parchment: #F7F6F3;
+  --color-card: #FFFFFF;
+  --color-dark: #2D2D2D;
+  --color-dark-bg: #1A1A1A;
+  --color-sage: #7C9070;
+  --color-sage-dark: #4A5D43;
+  --color-terracotta: #D4845E;
+  --color-blue: #5B9BD5;
+  --color-text-primary: #2D2D2D;
+  --color-text-secondary: #6B6B6B;
+  --color-text-tertiary: #8E8E93;
+  --color-border: #F0EFEC;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .font-display {
+    font-family: "Fraunces", serif;
+  }
+
+  .font-body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+
+  .font-mono {
+    font-family: "Space Mono", monospace;
+  }
+}
